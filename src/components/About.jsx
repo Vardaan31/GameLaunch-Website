@@ -9,13 +9,12 @@ function About() {
         <div className='w-full flex gap-5 border-t-[1px] mt-12 border-[#637429]'>
         <div className='w-1/2 pt-20'>
         <h1 className='text-6xl'>History of Battle-Zone</h1>
-        <button className='group flex gap-10 items-center uppercase px-10 py-6 mt-14 rounded-full bg-zinc-900 text-white hover:bg-zinc-800 transition-colors duration-300'>
-        Read More
-        <div className='w-2 h-2 rounded-full bg-white group-hover:w-4 group-hover:h-4 group-hover:border-2 group-hover:border-white transition-all duration-300 ease-in-out'></div>
+        <button className='flex gap-10 items-center uppercase px-10 py-6 mt-14 rounded-full bg-zinc-900 text-white'>Read More
+          <div className='w-2 h-2 rounded-full bg-white'></div>
         </button>
         </div>
         <div className='w-[80vh] h-[80vh] mt-12 rounded-3xl bg-[#ffffff]'>
-        <img src={gggSVG} alt="GG SVG" className='w-full h-full rounded-3xl' />
+        <img src={gggSvg} alt="GG SVG" className='w-full h-full rounded-3xl' />
         </div>
         </div>
         
