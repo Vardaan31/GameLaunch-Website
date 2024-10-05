@@ -14,7 +14,7 @@ function About() {
         </button>
         </div>
         <div className='w-[80vh] h-[80vh] mt-12 rounded-3xl bg-[#ffffff]'>
-        <img src="https://i.pinimg.com/736x/27/8c/92/278c92baf3464540e1c02103e04c5fe4.jpg" alt="GG SVG" className='w-full h-full rounded-3xl' />
+        <img src="/src/ggg.svg" alt="GG SVG" className='w-full h-full rounded-3xl' />
         </div>
         </div>
         
