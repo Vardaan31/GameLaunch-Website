@@ -1,4 +1,5 @@
 import React from 'react'
+import gggSvg from '../ggg.svg';
 
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
         </button>
         </div>
         <div className='w-[80vh] h-[80vh] mt-12 rounded-3xl bg-[#ffffff]'>
-        <img src="/src/ggg.svg" alt="GG SVG" className='w-full h-full rounded-3xl' />
+        <img src={gggSVG} alt="GG SVG" className='w-full h-full rounded-3xl' />
         </div>
         </div>
         
